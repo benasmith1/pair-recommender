@@ -2,7 +2,7 @@
   This file returns html that shows a plotly plot of KNN on users and a description of how I carried out the project.
   */}
   
-  import React from 'react'
+import React from 'react'
 
 
 const ProjectExplained = () => { 

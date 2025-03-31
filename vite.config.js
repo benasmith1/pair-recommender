@@ -8,7 +8,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/submit': {
-        target: 'http://localhost:5001',
+        target: 'http://159.223.168.125:5001', //'http://localhost:5001', 
         changeOrigin: true,
         secure: false,
       },
