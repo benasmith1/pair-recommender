@@ -12,7 +12,8 @@ export default defineConfig({
         changeOrigin: true,
         secure: false,
       },
-
+      host: '0.0.0.0', // Ensure Vite binds to all network interfaces
+      port: 8080, // Ensure the correct port
     }
   },
 })
