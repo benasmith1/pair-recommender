@@ -15,6 +15,10 @@ export default defineConfig({
         changeOrigin: true,
         secure: false,
       },
+    
     },
+  },
+  preview: {
+    allowedHosts: ['pair-recommender-client-6rb88.ondigitalocean.app'],
   },
 });
