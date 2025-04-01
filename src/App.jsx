@@ -25,9 +25,10 @@ export default function App() {
           <h1 className="text-5xl font-bold text-white">Bena's Demo for 222</h1>
         </div>
           <ProjectExplained />
-        <div className="h-20"></div> {/* Adjust this height to give more/less space between sections */}
 
       </div>
+
+      <div className="relative w-full bg-cover bg-center h-20" style={{ backgroundImage: 'url(./header2.png)' }}/>
 
 
       <div className="flex flex-col w-full min-h-screen bg-lime-950">
