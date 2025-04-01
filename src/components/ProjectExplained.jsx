@@ -21,7 +21,7 @@ const ProjectExplained = () => {
                     width="100%"
                     height="600px"
                     title="Group Plot"
-                    className=""
+                    className=" w-full flex justify-center items-center pl-110"
                 />
 
 
