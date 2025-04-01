@@ -19,6 +19,6 @@ export default defineConfig({
     //},
   },
   preview: {
-    allowedHosts: ['pair-recommender-service-6oqt6.ondigitalocean.app/'],
+    allowedHosts: ['pair-recommender-client-6rb88.ondigitalocean.app'],
   },
 });
