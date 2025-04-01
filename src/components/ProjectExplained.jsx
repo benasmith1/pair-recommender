@@ -31,7 +31,7 @@ const ProjectExplained = () => {
                 <h1 className="text-3xl text-white ">
                 Procedure
                 </h1>
-                <h3 className="text-white text-lg pl-15 pr-7 pb-5"> 
+                <h3 className="text-white text-lg pl-15 pr-7 pb-5 text-white text-lg pl-4 pr-3 pb-5 break-words whitespace-normal"> 
 
                     <b>1. Create 300 simulated profiles of app users </b> with an "About Me", favorite music genres, <br/>
                     religion, and 1-5 ranks of outgoingness, outdoorsiness, and polictical correctness. ChatGPT created<br/>

@@ -123,31 +123,31 @@ export default function App() {
             <h1 className="text-5xl font-bold text-white">About Me</h1>
           </div>
           <div className="relative flex  bg-lime-950 ">
-            <div className="flex  pt-20 items-start">
-              <img src={'./BenaSmithHeadshot.png'} alt="bena Headshot" className="w-100 pl-20 pb-20 object-contain "/>;
+            <div className="flex  pt-20 items-start w-1/5">
+              <img src={'./BenaSmithHeadshot.png'} alt="bena Headshot" className=" pl-20 pb-20 object-contain "/>;
             </div>
-            <div className="flex flex-col justify-start text-left ">
+            <div className="flex flex-col justify-start text-left w-4/5">
               <h2 className="text-3xl text-white pl-20 pt-20 pb-5">
                   Nice to meet you!
               </h2>
-                <p className="text-slate-400 text-xl pl-20 pl-20 pb-20 pr-20">
-                  My name is Bena. I am from Denver, Colorado. I recently moved to New York and am excited to go to a 222 event. I enjoy DJing, running,  <br/>
-                  skateboarding, doodling, meeting new people, the outdoors, and machine learning! I enjoy automating and streamlining systems with data<br/>
+                <p className="text-slate-400 text-xl pl-20 pl-20 pb-20 pr-20 break-words whitespace-normal">
+                  My name is Bena. I am from Denver, Colorado. I recently moved to New York and am excited to go to a 222 event. I enjoy DJing, running, 
+                  skateboarding, doodling, meeting new people, the outdoors, and machine learning! I enjoy automating and streamlining systems with data
                   algorithms. <br/> <br/>
 
-                  At Gallo Winery, I created a LangChain AI agent to ask questions about Gallo’s wine sales in plain language. The agent writes SQL code and <br/>
-                  queries the sales database to return an answer. I worked closely with the sales team to understand business requirements to create a product<br/>
-                  that truly serves its users. Prior to this project, salespeople were sifting through large datasets and planning their own sales strategies. <br/>
-                  Now, I've implemented an automated messaging system that sends weekly Microsoft Teams messages with AI-generated optimal strategies.<br/><br/>
-                  During my B.S. in Statistics and Data Science with minors in Computer Science and Biology at the University of Arizona, I won the highest <br/>
-                  award at the American Statistical Association Datafest. I created a Natural Language Processing-based search engine for lawyers in the <br/>
-                  American Bar Association to find cases in their domain. I also performed sentiment analysis on client and lawyer messages. This was when <br/> 
-                  I truly began to understand the power of data in improving automated processes and how much I loved creating data algorithms. <br/> <br/> 
-                  As full-stack web developer at the Eliot Litz Consulting Firm, I coded with React, C#, and SQL to create a home design management website. <br/>
+                  At Gallo Winery, I created a LangChain AI agent to ask questions about Gallo’s wine sales in plain language. The agent writes SQL code and 
+                  queries the sales database to return an answer. I worked closely with the sales team to understand business requirements to create a product
+                  that truly serves its users. Prior to this project, salespeople were sifting through large datasets and planning their own sales strategies.
+                  Now, I've implemented an automated messaging system that sends weekly Microsoft Teams messages with AI-generated optimal strategies. <br/> <br/> 
+                  During my B.S. in Statistics and Data Science with minors in Computer Science and Biology at the University of Arizona, I won the highest 
+                  award at the American Statistical Association Datafest. I created a Natural Language Processing-based search engine for lawyers in the 
+                  American Bar Association to find cases in their domain. I also performed sentiment analysis on client and lawyer messages. This was when 
+                  I truly began to understand the power of data in improving automated processes and how much I loved creating data algorithms.
+                  As full-stack web developer at the Eliot Litz Consulting Firm, I coded with React, C#, and SQL to create a home design management website.
                   At BrightBean Labs, I developed a genetic algorithm to optimize delivery routes and built Power BI dashboards for supply chain management. <br/> <br/> 
-                  Seeking a deeper understanding of the theory behind data modeling, I completed an M.S. in Statistics at Cal Poly. I am skilled in time series  <br/> 
-                  analysis, generalized linear models, stochastic modeling, Bayesian statistics, and statistical consulting. I continue to round-out my data science  <br/>
-                  toolkit with Coursera and DataCamp courses including: Neural Networks and Deep Learning Certificate (Andrew Ng/ DeepLearning.AI), Tableau,  <br/>
+                  Seeking a deeper understanding of the theory behind data modeling, I completed an M.S. in Statistics at Cal Poly. I am skilled in time series  
+                  analysis, generalized linear models, stochastic modeling, Bayesian statistics, and statistical consulting. I continue to round-out my data science  
+                  toolkit with Coursera and DataCamp courses including: Neural Networks and Deep Learning Certificate (Andrew Ng/ DeepLearning.AI), Tableau, 
                   SQL, Supervised Learning with Scikit-learn, Deep Learning with PyTorch, and Reinforcement Learning. <br/><br/> 
 
                   <a href="https://bena-smith.com" target="_blank">View my portfolio↗</a><br/><br/>
