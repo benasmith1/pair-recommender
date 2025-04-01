@@ -22,7 +22,7 @@ export default function App() {
     <main className="bg-lime-100 min-h-screen flex flex-col">
       <div className="relative w-full bg-cover bg-center" style={{ backgroundImage: 'url(./header2.png)' }}>
         <div className="flex justify-center items-center h-[60vh]">
-          <h1 className="text-5xl font-bold text-white">222</h1>
+          <h1 className="text-5xl font-bold text-white">Bena's Demo for 222</h1>
         </div>
           <ProjectExplained />
         <div className="h-20"></div> {/* Adjust this height to give more/less space between sections */}
@@ -30,11 +30,10 @@ export default function App() {
       </div>
 
 
-      <div className="flex flex-row w-full min-h-screen bg-lime-950">
+      <div className="flex flex-col w-full min-h-screen bg-lime-950">
         <MemberForm setSimilarPeople={setSimilarPeople} setSuggestedEvents={setSuggestedEvents} setLoading={setLoading}/>
 
-        <div className="w-1/2 bg-stone-600 p-6 text-white">
-          <h2 className="text-2xl font-bold mb-4">Similar People</h2>
+        <div className="bg-stone-600 p-6 text-white">
           
           {loading ? (
             <div className="flex flex-col justify-center items-center">
@@ -44,23 +43,32 @@ export default function App() {
           ) : (
             similarPeople.length > 0 ? (
               <ul className="list-disc pl-4 text-white animate__animated animate__fadeIn ">
+                
+              <h2 className="text-2xl font-bold mb-4 flex justify-center items-center ">Similar People</h2>
+
                 {similarPeople.map((person, index) => (
-                  <li key={index} className="text-white mb-4 animate__animated animate__fadeIn ">
-                    <div className="border-b border-gray-700 pb-4">
-                      <b className="text-xl">{person.Name}</b>
-                      <p>{person.About_Me}</p>
-                      <p><b>Favorite Music Genres</b>: {person.Favorite_Music_Genres}</p>
-                      <p><b>Religion</b>: {person.Religion}</p>
-                      <p><b>Outgoing</b>: {["Very Introverted", "Introverted", "Neutral", "Outgoing", "Very Outgoing"][person.Outgoing - 1]}</p>
-                      <p><b>Outdoorsy</b>: {["Never Outdoors", "Rarely Outdoors", "Sometimes Outdoors", "Often Outdoors", "Always Outdoors"][person.Outdoorsy - 1]}</p>
-                      <p><b>Politically Correct</b>: {["Not at all", "Somewhat not", "Neutral", "Somewhat", "Very"][person.Politically_Correct - 1]}</p>
-                    </div>
+
+                  <li key={index} className="text-slate-300 mb-4 animate__animated animate__fadeIn pl-10 list-none">
+                    <div className="border-b border-gray-700 pb-4 flex flex-row">
+
+                      <div className="w-3/5"> 
+                        <b className="text-xl">{person.Name}</b>
+                        <p>{person.About_Me}</p>
+                      </div>
+                      <div className="w-2/5 pl-10"> 
+                        <p><b>Favorite Music Genres</b>: {person.Favorite_Music_Genres}</p>
+                        <p><b>Religion</b>: {person.Religion}</p>
+                        <p><b>Outgoing</b>: {["Very Introverted", "Introverted", "Neutral", "Outgoing", "Very Outgoing"][person.Outgoing - 1]}</p>
+                        <p><b>Outdoorsy</b>: {["Never Outdoors", "Rarely Outdoors", "Sometimes Outdoors", "Often Outdoors", "Always Outdoors"][person.Outdoorsy - 1]}</p>
+                        <p><b>Politically Correct</b>: {["Not at all", "Somewhat not", "Neutral", "Somewhat", "Very"][person.Politically_Correct - 1]}</p>
+                        </div>
+                      </div>
                   </li>
                 ))}
-                <h2 className="text-2xl font-bold text-white mb-4 mt-4" dangerouslySetInnerHTML={{ __html: suggestedEvents }} />
+                <h2 className="text-2xl font-bold text-slate-300 mb-4 mt-4 pt-10" dangerouslySetInnerHTML={{ __html: suggestedEvents }} />
               </ul>
             ) : (
-              <h2 className="text-gray-400 text-2xl">Fill out the form to find similar people and cool events!</h2>
+              <h2 className="text-gray-400 text-2xl flex justify-center items-center">Fill out the form to find similar people and cool events!</h2>
             )
           )}
         </div>
@@ -77,33 +85,33 @@ export default function App() {
         <div className="flex justify-center items-center h-[30vh]">
           <h1 className="text-5xl font-bold text-white">Other ML Ideas</h1>
         </div>
-        <div className=" bg-lime-950">
+        <div className=" bg-lime-950 break-words whitespace-normal">
                 <h2 className="text-3xl text-white pt-20 pl-20 pb-5">
                   Improving this algorithm
                 </h2>
-                <p className="text-slate-400 text-xl pl-20 pb-10 pr-20">To improve our people pairing algorithm we should do some research on what blend of personality types makes a good group. Right now, my algorithm suggests the most similar people. <br/>
-                But do opposites attract? Which traits are the most important to people that they share with their friends? Are some people using 222 to find love while others want some buddies?  <br/>
+                <p className="text-slate-300 text-xl pl-20 pb-10 pr-20">To improve our people pairing algorithm we should do some research on what blend of personality types makes a good group. Right now, my algorithm suggests the most similar people. 
+                But do opposites attract? Which traits are the most important to people that they share with their friends? Are some people using 222 to find love while others want some buddies?  
                 222 uses "parameters" that allow a user to select the most/least important traits to share with someone. This plus some domain research should lead to awesome pairings. </p>
 
                 <h2 className="text-3xl text-white pl-20 pb-5">
                   Analyze user sentiments
                 </h2>
-                <p className="text-slate-400 text-xl pl-20 pb-3 pr-20"> We can search the web/ social media to find people talking about 222. 
+                <p className="text-slate-300 text-xl pl-20 pb-3 pr-20"> We can search the web/ social media to find people talking about 222. 
                   We can analyze the sentiments of these webpages to see if users like the app. Then we can use OpenAI to extract popular phrases
                   in webpages to see what users like and what can be improved. </p>
-                <p className="text-slate-400 text-xl pl-20 pb-3 pr-20">I created this algorithm and you can search for user sentiments about 222 here: </p>
-                <p className="text-slate-400 text-xl pl-20 pb-3 pr-20"><b> <a href="https://sentimentexplorer.streamlit.app/" target="_blank">Try my sentiment explorer! ↗</a></b> (Try searching for 222 social app)</p>
-                <p className="text-slate-400 text-xl pl-20 pb-10 pr-20">We can adapt this algorithm to monitor user likes and concerns in tweets, app store reviews, or summarize the satisfaction surveys users fill out after they take the comptibility survey.</p>
+                <p className="text-slate-300 text-xl pl-20 pb-3 pr-20">I created this algorithm and you can search for user sentiments about 222 here: </p>
+                <p className="text-slate-300 text-xl pl-20 pb-3 pr-20"><b> <a href="https://sentimentexplorer.streamlit.app/" target="_blank">Try my sentiment explorer! ↗</a></b> (Try searching for 222 social app)</p>
+                <p className="text-slate-300 text-xl pl-20 pb-10 pr-20">We can adapt this algorithm to monitor user likes and concerns in tweets, app store reviews, or summarize the satisfaction surveys users fill out after they take the comptibility survey.</p>
 
                 <h2 className="text-3xl text-white pl-20 pb-5">
                   Fraud & spam detection
                 </h2>
-                <p className="text-slate-400 text-xl pl-20  pb-10 pr-20">To detect bots and malicious actors, we can use Clustering and Convolutional Neural Networks on user behavior in our app and responses to compatibility surveys.</p>
+                <p className="text-slate-300 text-xl pl-20  pb-10 pr-20">To detect bots and malicious actors, we can use Clustering and Convolutional Neural Networks on user behavior in our app and responses to compatibility surveys.</p>
 
                 <h2 className="text-3xl text-white pl-20 pb-5 pr-20">
                   Identify traits of popular events
                 </h2>
-                <p className="text-slate-400 text-xl pl-20 pl-20 pb-10 pr-20">Events held at 7pm may have statistically significantly higher attendance than those held at 6pm. 
+                <p className="text-slate-300 text-xl pl-20 pl-20 pb-10 pr-20">Events held at 7pm may have statistically significantly higher attendance than those held at 6pm. 
                   We can find out using regression analysis. We will see if there are interactions between event traits that are associated with higher attendance and 
                   attendee satisfaction.
                 </p>
@@ -111,7 +119,7 @@ export default function App() {
                 <h2 className="text-3xl text-white pl-20 pb-5">
                   Create Itineraries
                 </h2>
-                <p className="text-slate-400 text-xl pl-20 pl-20 pb-20 pr-20">We can use OpenAI's new deep research tool that can find restaurants with very specific requirements and create complex itineraries.</p>
+                <p className="text-slate-300 text-xl pl-20 pl-20 pb-20 pr-20">We can use OpenAI's new deep research tool that can find restaurants with very specific requirements and create complex itineraries.</p>
 
         </div>
         <div className="" style={{ backgroundImage: 'url(./tree3.png)',
@@ -131,7 +139,7 @@ export default function App() {
               <h2 className="text-3xl text-white pl-20 pt-20 pb-5">
                   Nice to meet you!
               </h2>
-                <p className="text-slate-400 text-xl pl-20 pl-20 pb-20 pr-20 break-words whitespace-normal">
+                <p className="text-slate-300 text-xl pl-20 pl-20 pb-20 pr-20 break-words whitespace-normal">
                   My name is Bena. I am from Denver, Colorado. I recently moved to New York and am excited to go to a 222 event. I enjoy DJing, running, 
                   skateboarding, doodling, meeting new people, the outdoors, and machine learning! I enjoy automating and streamlining systems with data
                   algorithms. <br/> <br/>

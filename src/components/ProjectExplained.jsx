@@ -12,8 +12,8 @@ const ProjectExplained = () => {
             Finding like-minded people
             </h1>
             <div className="w-full flex justify-center items-center flex-col">
-                <h3 className="text-white text-lg pb-5 flex justify-center items-center"> 
-                    <b> Click around on the graph to explore people and groups</b><br/><br/>
+                <h3 className="text-slate-300 text-lg pb-5 flex justify-center items-center"> 
+                    <b> Click around on the graph to explore people and groups. Double-click on a group in the legend to isolate a group</b><br/><br/>
                 </h3>
 
                 <div className="w-full flex justify-center">
@@ -28,10 +28,10 @@ const ProjectExplained = () => {
 
             </div>
             <div className="flex-col justify-start text-left ">
-                <h1 className="text-3xl text-white ">
+                <h1 className="text-3xl text-white">
                 Procedure
                 </h1>
-                <h3 className="text-white text-lg pl-15 pr-7 pb-7 text-white text-lg pl-4 pr-3 pb-5 break-words whitespace-normal"> 
+                <h3 className="text-slate-300 text-lg pl-15 pr-7 pb-7 text-lg pl-4 pr-3 pb-5 break-words whitespace-normal"> 
 
                     <b>1. Create 300 simulated profiles of app users </b> with an "About Me", favorite music genres, <br/>
                     religion, and 1-5 ranks of outgoingness, outdoorsiness, and polictical correctness. ChatGPT created<br/>
