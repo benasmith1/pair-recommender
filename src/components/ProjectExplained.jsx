@@ -7,7 +7,10 @@ import React from 'react'
 
 const ProjectExplained = () => { 
     return (
-        <div className="relative flex-col  bg-lime-950  items-center">
+        <div className=" flex justify-center relative flex-col  bg-lime-950  items-center">
+            <h1 className="text-3xl text-white ">
+            Finding like-minded people
+            </h1>
             <div className="w-full">
                 <iframe 
                     src="/group_plot.html" 
@@ -16,14 +19,16 @@ const ProjectExplained = () => {
                     title="Group Plot"
                 />
 
-
+            <h3 className="text-white text-lg pr-7 pb-5"> 
+                <b> Click around on the graph to explore people and groups</b><br/><br/>
+            </h3>
 
             </div>
             <div className="flex-col justify-start text-left ">
                 <h1 className="text-3xl text-white ">
-                How to find like-minded people
+                Procedure
                 </h1>
-                <h3 className="text-white text-lg pr-7 pb-5"> 
+                <h3 className="text-white text-lg pl-15 pr-7 pb-5"> 
                     <b> ← Click around on the graph to explore people and groups</b><br/><br/>
 
                     <b>1. Create 300 simulated profiles of app users </b> with an "About Me", favorite music genres, <br/>
