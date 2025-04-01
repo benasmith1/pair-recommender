@@ -17,12 +17,12 @@ const ProjectExplained = () => {
                 </h3>
 
                 <div className="w-full flex justify-center">
-                    <iframe 
+                    <embed 
                         src="/group_plot.html" 
                         width="80%"  // Adjust width to fit better
                         height="600px"
                         title="Group Plot"
-                        className="block mx-auto max-w-full"
+                        className="block mx-auto max-w-full flex justify-center items-center block w-[1000px] clear-both"
                     />
                 </div>
 
