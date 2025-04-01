@@ -19,8 +19,8 @@ export default function App() {
   }, [similarPeople]); // Log when state updates
 
   return (
-    <main className="bg-lime-100 min-h-screen flex flex-col">
-      <div className="relative w-full bg-cover bg-center" style={{ backgroundImage: 'url(./header2.png)' }}>
+    <main className="bg-lime-100 min-h-screen flex flex-col bg-cover">
+      <div className="relative w-full bg-contain bg-center" style={{ backgroundImage: 'url(./header2.png)', height: '150vh'}}>
         <div className="flex justify-center items-center h-[60vh]">
           <h1 className="text-5xl font-bold text-white">Bena's Demo for 222</h1>
         </div>
