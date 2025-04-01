@@ -11,7 +11,7 @@ const ProjectExplained = () => {
             <h1 className="text-3xl text-white flex justify-center items-center">
             Finding like-minded people
             </h1>
-            <div className="w-full flex justify-center items-center">
+            <div className="w-full flex justify-center items-center flex-col">
                 <iframe 
                     src="/group_plot.html" 
                     width="100%"
