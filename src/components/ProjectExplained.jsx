@@ -16,14 +16,15 @@ const ProjectExplained = () => {
                     <b> Click around on the graph to explore people and groups</b><br/><br/>
                 </h3>
 
-                <iframe 
-                    src="/group_plot.html" 
-                    width="100%"
-                    height="600px"
-                    title="Group Plot"
-                    className=" w-full flex justify-center items-center pl-110"
-                />
-
+                <div className="w-full flex justify-center">
+                    <iframe 
+                        src="/group_plot.html" 
+                        width="80%"  // Adjust width to fit better
+                        height="600px"
+                        title="Group Plot"
+                        className="block mx-auto max-w-full pl-50"
+                    />
+                </div>
 
             </div>
             <div className="flex-col justify-start text-left ">
