@@ -7,8 +7,8 @@ import React from 'react'
 
 const ProjectExplained = () => { 
     return (
-        <div className="relative flex  bg-lime-950  items-center">
-            <div className="flex-grow min-w-0">
+        <div className="relative flex-col  bg-lime-950  items-center">
+            <div className="w-full">
                 <iframe 
                     src="/group_plot.html" 
                     width="100%"
@@ -19,7 +19,7 @@ const ProjectExplained = () => {
 
 
             </div>
-            <div className="flex flex-col justify-start text-left ">
+            <div className="flex-col justify-start text-left ">
                 <h1 className="text-3xl text-white ">
                 How to find like-minded people
                 </h1>
