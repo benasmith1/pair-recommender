@@ -11,7 +11,7 @@ const ProjectExplained = () => {
             <h1 className="text-3xl text-white flex justify-center items-center">
             Finding like-minded people
             </h1>
-            <div className="w-full flex justify-center items-center flex-col">
+            <div className="flex justify-center items-center flex-col">
                 <h3 className="text-white text-lg pb-5 flex justify-center items-center"> 
                     <b> Click around on the graph to explore people and groups</b><br/><br/>
                 </h3>
