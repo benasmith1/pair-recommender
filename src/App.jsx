@@ -20,13 +20,15 @@ export default function App() {
 
   return (
     <main className="bg-lime-100 min-h-screen flex flex-col bg-cover">
-      <div className="relative w-full bg-contain bg-center" style={{ backgroundImage: 'url(./header2.png)', height: '150vh'}}>
+      <div className="relative w-full bg-contain bg-center bg-cover" style={{ backgroundImage: 'url(./header2.png)'}}>
         <div className="flex justify-center items-center h-[60vh]">
           <h1 className="text-5xl font-bold text-white">Bena's Demo for 222</h1>
         </div>
+      </div>
+
+
           <ProjectExplained />
 
-      </div>
 
       <div className="relative w-full bg-cover bg-center h-20" style={{ backgroundImage: 'url(./header2.png)' }}/>
 
