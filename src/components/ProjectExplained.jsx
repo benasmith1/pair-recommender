@@ -8,7 +8,7 @@ import React from 'react'
 const ProjectExplained = () => { 
     return (
         <div className=" flex justify-center relative flex-col  bg-lime-950  items-center">
-            <h1 className="text-3xl text-white ">
+            <h1 className="text-3xl text-white flex justify-center items-center">
             Finding like-minded people
             </h1>
             <div className="w-full">
@@ -19,7 +19,7 @@ const ProjectExplained = () => {
                     title="Group Plot"
                 />
 
-            <h3 className="text-white text-lg pr-7 pb-5"> 
+            <h3 className="text-white text-lg pr-7 pb-5 flex justify-center items-center"> 
                 <b> Click around on the graph to explore people and groups</b><br/><br/>
             </h3>
 
