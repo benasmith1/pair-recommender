@@ -11,7 +11,7 @@ const ProjectExplained = () => {
             <h1 className="text-3xl text-white flex justify-center items-center">
             Finding like-minded people
             </h1>
-            <div className="w-full">
+            <div className="w-full flex justify-center items-center">
                 <iframe 
                     src="/group_plot.html" 
                     width="100%"
@@ -29,7 +29,6 @@ const ProjectExplained = () => {
                 Procedure
                 </h1>
                 <h3 className="text-white text-lg pl-15 pr-7 pb-5"> 
-                    <b> ← Click around on the graph to explore people and groups</b><br/><br/>
 
                     <b>1. Create 300 simulated profiles of app users </b> with an "About Me", favorite music genres, <br/>
                     religion, and 1-5 ranks of outgoingness, outdoorsiness, and polictical correctness. ChatGPT created<br/>
