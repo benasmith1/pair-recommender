@@ -8,7 +8,7 @@ import React from 'react'
 const ProjectExplained = () => { 
     return (
         <div className=" flex justify-center relative flex-col  bg-lime-950  items-center">
-            <h1 className="text-3xl text-white flex justify-center items-center">
+            <h1 className="text-3xl text-white flex justify-center items-center pt-10">
             Finding like-minded people
             </h1>
             <div className="w-full flex justify-center items-center flex-col">
@@ -31,7 +31,7 @@ const ProjectExplained = () => {
                 <h1 className="text-3xl text-white ">
                 Procedure
                 </h1>
-                <h3 className="text-white text-lg pl-15 pr-7 pb-5 text-white text-lg pl-4 pr-3 pb-5 break-words whitespace-normal"> 
+                <h3 className="text-white text-lg pl-15 pr-7 pb-7 text-white text-lg pl-4 pr-3 pb-5 break-words whitespace-normal"> 
 
                     <b>1. Create 300 simulated profiles of app users </b> with an "About Me", favorite music genres, <br/>
                     religion, and 1-5 ranks of outgoingness, outdoorsiness, and polictical correctness. ChatGPT created<br/>
@@ -51,6 +51,10 @@ const ProjectExplained = () => {
                     <b>3. Make groups </b>using K Nearest Neighbors based on the closeness of the vector embeddings. Using<br/>
                     principal component analysis, the vector embeddings are reduced to 2 dimensions to view the graph <br/>
                     on the right in 2 dimensions. I made 10 groups of people. We can plan an event for each group!<br/><br/>
+
+                    This app was created with React and Flask/ Python. Code can be found here: <br/>
+                    <b><a href="https://github.com/benasmith1/pair-recommender" target="_blank">React Client↗</a> </b><br/>
+                    <b><a href="https://github.com/benasmith1/server-pair-recommender" target="_blank">Flask Backend↗</a></b><br/><br/>
 
 
                     <b>Below, you can create a profile and users with similar vector embeddings/traits are recommended <br/>

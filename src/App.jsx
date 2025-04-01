@@ -19,7 +19,7 @@ export default function App() {
   }, [similarPeople]); // Log when state updates
 
   return (
-    <main className="bg-indigo-300 min-h-screen flex flex-col">
+    <main className="bg-lime-100 min-h-screen flex flex-col">
       <div className="relative w-full bg-cover bg-center" style={{ backgroundImage: 'url(./header2.png)' }}>
         <div className="flex justify-center items-center h-[60vh]">
           <h1 className="text-5xl font-bold text-white">222</h1>
@@ -37,8 +37,9 @@ export default function App() {
           <h2 className="text-2xl font-bold mb-4">Similar People</h2>
           
           {loading ? (
-            <div className="flex justify-center items-center">
+            <div className="flex flex-col justify-center items-center">
               <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-white"></div>
+              <h3 className="block text-xl font-bold mb-2 pt-10">Matching you with awesome people and experiences. Wait ~10 seconds</h3>
             </div>
           ) : (
             similarPeople.length > 0 ? (
