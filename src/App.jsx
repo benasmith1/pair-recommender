@@ -154,7 +154,7 @@ export default function App() {
                   award at the American Statistical Association Datafest. I created a Natural Language Processing-based search engine for lawyers in the 
                   American Bar Association to find cases in their domain. I also performed sentiment analysis on client and lawyer messages. This was when 
                   I truly began to understand the power of data in improving automated processes and how much I loved creating data algorithms. <br/> <br/> 
-                  As full-stack web developer at the Eliot Litz Consulting Firm, I coded with React, C#, and SQL to create a home design management website.
+                  As a full-stack web developer at the Eliot Litz Consulting Firm, I coded with React, C#, and SQL to create a home design management website.
                   At BrightBean Labs, I developed a genetic algorithm to optimize delivery routes and built Power BI dashboards for supply chain management. <br/> <br/> 
                   Seeking a deeper understanding of the theory behind data modeling, I completed an M.S. in Statistics at Cal Poly. I am skilled in time series  
                   analysis, generalized linear models, stochastic modeling, Bayesian statistics, and statistical consulting. I continue to round-out my data science  
