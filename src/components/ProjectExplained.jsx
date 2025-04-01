@@ -12,16 +12,18 @@ const ProjectExplained = () => {
             Finding like-minded people
             </h1>
             <div className="w-full flex justify-center items-center flex-col">
+                <h3 className="text-white text-lg pb-5 flex justify-center items-center"> 
+                    <b> Click around on the graph to explore people and groups</b><br/><br/>
+                </h3>
+
                 <iframe 
                     src="/group_plot.html" 
                     width="100%"
                     height="600px"
                     title="Group Plot"
+                    className="w-full flex justify-center items-center"
                 />
 
-            <h3 className="text-white text-lg pr-7 pb-5 flex justify-center items-center"> 
-                <b> Click around on the graph to explore people and groups</b><br/><br/>
-            </h3>
 
             </div>
             <div className="flex-col justify-start text-left ">

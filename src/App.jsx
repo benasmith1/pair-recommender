@@ -122,7 +122,7 @@ export default function App() {
         <div className="flex justify-center items-center h-[30vh]">
             <h1 className="text-5xl font-bold text-white">About Me</h1>
           </div>
-          <div className="relative flex  bg-lime-950  items-center">
+          <div className="relative flex  bg-lime-950 ">
             <div className="flex  pt-20">
               <img src={'./BenaSmithHeadshot.png'} alt="bena Headshot" className="w-90 pl-20 pb-20"/>;
             </div>
