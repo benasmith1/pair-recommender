@@ -11,7 +11,7 @@ export default defineConfig({
     port: 8080, // Specify the port you want Vite to run on
     proxy: {
       '/submit': {
-        target: 'pair-recommender-client-6rb88.ondigitalocean.app', 
+        target: 'https://pair-recommender-client-6rb88.ondigitalocean.app', 
         changeOrigin: true,
         secure: false,
       },
