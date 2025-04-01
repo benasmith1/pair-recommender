@@ -81,7 +81,7 @@ export default function MemberForm({ setSimilarPeople, setSuggestedEvents, setLo
             </h1>
 
             <div className="form-group text-white">
-            <label htmlFor="Name" className="block text-xl mb-2">Name:</label>
+            <label htmlFor="Name" className="block text-xl font-bold mb-2">Name:</label>
             <input
                 type="text"
                 id="Name"
@@ -92,7 +92,7 @@ export default function MemberForm({ setSimilarPeople, setSuggestedEvents, setLo
                 className="w-full p-3 mb-4 bg-white text-gray-800 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-yellow-500"
             />
 
-            <label htmlFor="About_Me" className="block text-xl mb-2">About Me:</label>
+            <label htmlFor="About_Me" className="block text-xl font-bold mb-2">About Me:</label>
             <textarea
                 id="About_Me"
                 name="About_Me"
@@ -105,7 +105,7 @@ export default function MemberForm({ setSimilarPeople, setSuggestedEvents, setLo
 
             <br/>
 
-            <label className="block text-xl font-bold mb-2">Favorite Genres:</label>
+            <label className="block text-xl font-bold mb-2">Favorite Music Genres:</label>
             <div className="grid grid-cols-2 gap-4 mb-4">
                 {genres.map((genre) => (
                 <label key={genre} className="flex items-center space-x-2">
