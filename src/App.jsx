@@ -123,7 +123,7 @@ export default function App() {
             <h1 className="text-5xl font-bold text-white">About Me</h1>
           </div>
           <div className="relative flex  bg-lime-950 ">
-            <div className="flex  pt-20">
+            <div className="flex  pt-20 items-start">
               <img src={'./BenaSmithHeadshot.png'} alt="bena Headshot" className="w-100 pl-20 pb-20 object-contain "/>;
             </div>
             <div className="flex flex-col justify-start text-left ">
