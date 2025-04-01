@@ -22,7 +22,7 @@ const ProjectExplained = () => {
                         width="80%"  // Adjust width to fit better
                         height="600px"
                         title="Group Plot"
-                        className="block mx-auto max-w-full pl-50"
+                        className="block mx-auto max-w-full"
                     />
                 </div>
 
