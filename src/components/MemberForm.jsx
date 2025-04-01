@@ -42,7 +42,7 @@ export default function MemberForm({ setSimilarPeople, setSuggestedEvents, setLo
         e.preventDefault();
         console.log(formData); 
         try {
-            const response = await fetch('/api/submit_form', {
+            const response = await fetch('https://pair-recommender-service-6oqt6.ondigitalocean.app/api/submit_form', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
