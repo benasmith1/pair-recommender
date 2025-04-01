@@ -18,7 +18,7 @@ export default defineConfig({
     
     },
   },
-  // preview: {
-  //   allowedHosts: ['pair-recommender-client-6rb88.ondigitalocean.app'],
-  // },
+  preview: {
+    allowedHosts: ['pair-recommender-client-6rb88.ondigitalocean.app'],
+  },
 });
