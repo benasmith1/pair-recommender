@@ -10,8 +10,8 @@ export default defineConfig({
     host: '0.0.0.0', // Vite will bind to all network interfaces
     port: 8080, // Specify the port you want Vite to run on
     proxy: {
-      '^/submit': {
-        target: 'https://pair-recommender-client-6rb88.ondigitalocean.app', 
+      '/submit': {
+        target: 'http://server-pair-recommender', 
         changeOrigin: true,
         secure: false,
       },
