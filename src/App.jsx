@@ -91,7 +91,7 @@ export default function App() {
                 </h2>
                 <p className="text-slate-300 text-xl pl-20 pb-10 pr-20">To improve our people pairing algorithm we should do some research on what blend of personality types makes a good group. Right now, my algorithm suggests the most similar people. 
                 But do opposites attract? Which traits are the most important to people that they share with their friends? Are some people using 222 to find love while others want some buddies?  
-                222 uses "parameters" that allow a user to select the most/least important traits to share with someone. This plus some domain research should lead to awesome pairings. </p>
+                222 uses "parameters" that allow a user to select the most/least important traits to share with someone. We can add dynamic weights that change based on these parameters. This plus some domain research should lead to awesome pairings. </p>
 
                 <h2 className="text-3xl text-white pl-20 pb-5">
                   Analyze user sentiments
@@ -145,13 +145,12 @@ export default function App() {
                   algorithms. <br/> <br/>
 
                   At Gallo Winery, I created a LangChain AI agent to ask questions about Gallo’s wine sales in plain language. The agent writes SQL code and 
-                  queries the sales database to return an answer. I worked closely with the sales team to understand business requirements to create a product
-                  that truly serves its users. Prior to this project, salespeople were sifting through large datasets and planning their own sales strategies.
+                  queries the sales database to return an answer. Prior to this project, salespeople were sifting through large datasets and planning their own sales strategies.
                   Now, I've implemented an automated messaging system that sends weekly Microsoft Teams messages with AI-generated optimal strategies. <br/> <br/> 
                   During my B.S. in Statistics and Data Science with minors in Computer Science and Biology at the University of Arizona, I won the highest 
                   award at the American Statistical Association Datafest. I created a Natural Language Processing-based search engine for lawyers in the 
                   American Bar Association to find cases in their domain. I also performed sentiment analysis on client and lawyer messages. This was when 
-                  I truly began to understand the power of data in improving automated processes and how much I loved creating data algorithms.
+                  I truly began to understand the power of data in improving automated processes and how much I loved creating data algorithms. <br/> <br/> 
                   As full-stack web developer at the Eliot Litz Consulting Firm, I coded with React, C#, and SQL to create a home design management website.
                   At BrightBean Labs, I developed a genetic algorithm to optimize delivery routes and built Power BI dashboards for supply chain management. <br/> <br/> 
                   Seeking a deeper understanding of the theory behind data modeling, I completed an M.S. in Statistics at Cal Poly. I am skilled in time series  

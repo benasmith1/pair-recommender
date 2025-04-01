@@ -13,7 +13,7 @@ const ProjectExplained = () => {
             </h1>
             <div className="w-full flex justify-center items-center flex-col">
                 <h3 className="text-slate-300 text-lg pb-5 flex justify-center items-center"> 
-                    <b> Click around on the graph to explore people and groups. Double-click on a group in the legend to isolate a group</b><br/><br/>
+                    <b> Click around on the graph to explore people and groups. Double-click on a group in the legend to isolate it</b><br/><br/>
                 </h3>
 
                 <div className="w-full flex justify-center">
@@ -33,7 +33,7 @@ const ProjectExplained = () => {
                 </h1>
                 <h3 className="text-slate-300 text-lg pl-15 pr-7 pb-7 text-lg pl-4 pr-3 pb-5 break-words whitespace-normal"> 
 
-                    <b>1. Create 300 simulated profiles of app users </b> with an "About Me", favorite music genres, <br/>
+                    <b>1. Create 300 simulated profiles of app users </b> with an "About Me," favorite music genres, <br/>
                     religion, and 1-5 ranks of outgoingness, outdoorsiness, and polictical correctness. ChatGPT created<br/>
                     these profiles so a lot of these simulated people have similar bios. With more intense prompting,<br/>
                     we can get more unique test profiles. Real users are more creative! <br/><br/>
@@ -50,7 +50,7 @@ const ProjectExplained = () => {
 
                     <b>3. Make groups </b>using K Nearest Neighbors based on the closeness of the vector embeddings. Using<br/>
                     principal component analysis, the vector embeddings are reduced to 2 dimensions to view the graph <br/>
-                    on the right in 2 dimensions. I made 10 groups of people. We can plan an event for each group!<br/><br/>
+                    in 2 dimensions. I made 10 groups of people. We can plan an event for each group!<br/><br/>
 
                     This app was created with React and Flask/ Python. Code can be found here: <br/>
                     <b><a href="https://github.com/benasmith1/pair-recommender" target="_blank">React Client↗</a> </b><br/>
