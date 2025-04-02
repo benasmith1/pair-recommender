@@ -9,7 +9,7 @@ export default function MemberForm({ setSimilarPeople, setSuggestedEvents, setLo
 
     const [formData, setFormData] = useState({
         Name: "",
-        About_Me: "(Click to edit) I am outgoing and love meeting new people. I am enthusiastic about electronic music, skateboarding, dancing, cooking, and running. I am a night owl, have a creative mindset, and love my work as a data scientist. I like board games, walking around, and birdwatching. ",
+        About_Me: "(Click to edit) I love meeting new people. I am enthusiastic about electronic music, skateboarding, dancing, cooking, and running. I am a night owl, have a creative mindset, and love my work as a data scientist. I like board games, walking around, and birdwatching. ",
         Outgoing: 2,
         Outdoorsy: 2,
         Religion: "Other",
